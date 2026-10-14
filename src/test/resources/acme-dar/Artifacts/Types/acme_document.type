@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Artifact:Artifact xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Artifact="http://documentum.emc.com/infrastructure/12012007/artifact" xmlns:dclass="http://documentum.emc.com/artifact/12012007/dclass" urn="urn:com.emc.ide.artifact.dclass/acme_document?artifactURI=file:/C:/workspace/acme_types/Artifacts/Types/acme_document.type" categoryId="com.emc.ide.artifact.dclass">
+  <dataModel xsi:type="dclass:DClass">
+    <type name="acme_document">
+      <primaryElement>
+        <attributes attr_name="acme_process" attr_length="32" ID="id_acme_process">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_process" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <attributes attr_name="acme_doc_type" attr_length="64" ID="id_acme_doc_type">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_doc_type" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <attributes attr_name="acme_doc_date" ID="id_acme_doc_date">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_doc_date" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="TIME"/>
+        </attributes>
+        <attributes attr_name="acme_end_date" ID="id_acme_end_date">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_end_date" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="TIME"/>
+        </attributes>
+        <attributes attr_name="acme_customer" attr_length="8" ID="id_acme_customer">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_customer" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <attributes attr_name="acme_contract_nr" attr_length="16" ID="id_acme_contract_nr">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_contract_nr" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <attributes attr_name="acme_notes" attr_length="200" ID="id_acme_notes">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_notes" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <attributes attr_name="acme_owner" attr_length="32" ID="id_acme_owner">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_owner" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <attributes attr_name="acme_priority" ID="id_acme_priority">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+            <default_value expressionText="5">
+              <objectType href="urn:com.emc.ide.artifact.dclass/dm_literal_expr?name=dm_literal_expr#//@dataModel"/>
+            </default_value>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_priority" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="INTEGER"/>
+        </attributes>
+        <attributes attr_name="acme_amount" ID="id_acme_amount">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_amount" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="DOUBLE"/>
+        </attributes>
+        <attributes attr_name="acme_tags" attr_repeating="true" attr_length="32" ID="id_acme_tags">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_tags" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <attributes attr_name="acme_archived" ID="id_acme_archived">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_archived" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="BOOLEAN"/>
+        </attributes>
+        <attributes attr_name="acme_source" attr_length="16" ID="id_acme_source">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+            <default_value expressionText="'migration'">
+              <objectType href="urn:com.emc.ide.artifact.dclass/dm_literal_expr?name=dm_literal_expr#//@dataModel"/>
+            </default_value>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="acme_source" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <typeAnnotations xsi:type="dclass:TypeDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT"/>
+      </primaryElement>
+      <super_name href="urn:com.emc.ide.artifact.dclass/dm_document?name=dm_document#//@dataModel"/>
+    </type>
+  </dataModel>
+  <viewModel xsi:type="Artifact:DefaultArtifactViewModel"/>
+</Artifact:Artifact>

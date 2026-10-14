@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2lifecycle execute_actions_on_start="true" state_attribute="">
+	<state direct="true" entry="true" name="Active">
+		<entry_conditions/>
+		<actions>
+			<setproperties>
+				<set name="a_status" value="Active"/>
+				<set name="acme_owner" value="$USER"/>
+			</setproperties>
+			<applyautonaming/>
+			<applyautolink/>
+			<applysecurity/>
+		</actions>
+		<next_states>
+			<state name="Final" type="promote"/>
+		</next_states>
+	</state>
+	<state direct="false" entry="false" name="Final">
+		<actions>
+			<setproperties><set name="a_status" value="Final"/></setproperties>
+			<applysecurity/>
+		</actions>
+		<next_states/>
+	</state>
+</d2lifecycle>

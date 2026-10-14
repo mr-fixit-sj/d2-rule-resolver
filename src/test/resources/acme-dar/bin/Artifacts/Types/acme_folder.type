@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Artifact:Artifact xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Artifact="http://documentum.emc.com/infrastructure/12012007/artifact" xmlns:dclass="http://documentum.emc.com/artifact/12012007/dclass" urn="urn:com.emc.ide.artifact.dclass/acme_folder?artifactURI=file:/C:/workspace/acme_types/Artifacts/Types/acme_folder.type" categoryId="com.emc.ide.artifact.dclass">
+  <dataModel xsi:type="dclass:DClass">
+    <type name="acme_folder">
+      <primaryElement>
+        <attributes attr_name="stale_attr" attr_length="5" ID="id_stale_attr">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <cond_value_assist/>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" label_text="stale_attr" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <typeAnnotations xsi:type="dclass:TypeDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT"/>
+      </primaryElement>
+      <super_name href="urn:com.emc.ide.artifact.dclass/dm_folder?name=dm_folder#//@dataModel"/>
+    </type>
+  </dataModel>
+  <viewModel xsi:type="Artifact:DefaultArtifactViewModel"/>
+</Artifact:Artifact>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Artifact:Artifact xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Artifact="http://documentum.emc.com/infrastructure/12012007/artifact" xmlns:moduledef="http://documentum.emc.com/artifact/12012007/moduledef" urn="urn:com.emc.ide.artifact.moduledef/acme_service?artifactURI=file:/C:/workspace/acme_artifacts/Artifacts/Modules/acme_service.module" categoryId="com.emc.ide.artifact.moduledef">
+  <dataModel xsi:type="moduledef:ModuleDef" objectName="com.example.acme.IService" a_module_type="SBO">
+    <primaryElement primary_class="com.example.acme.Service"/>
+  </dataModel>
+  <viewModel xsi:type="Artifact:DefaultArtifactViewModel"/>
+</Artifact:Artifact>

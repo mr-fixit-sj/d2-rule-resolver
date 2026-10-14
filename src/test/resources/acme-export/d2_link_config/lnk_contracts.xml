@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_link_config new_format="true">
+	<object_name value="lnk_contracts"/>
+	<module_type value="d2_link_config"/>
+	<application_names><repeating value="ACME"/></application_names>
+	<path><repeating value="/ACME/$value(acme_process.dic_processes.fr)/$value(acme_doc_type)/$value(acme_doc_date.yyyy)/$value(acme_doc_date.MM)"/></path>
+	<undefined_label value="Undefined"/>
+	<undefined_concat value="F"/>
+	<type><repeating value="/dm_cabinet/acme_folder/acme_folder/acme_folder/acme_folder"/></type>
+	<acl><repeating value="///acl_contract_folder//"/></acl>
+	<default_value><repeating value="///def_type_folder//"/></default_value>
+	<regexp_name/>
+	<regexp_pattern/>
+	<regexp_replace/>
+</d2_link_config>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_acl_config new_format="true">
+	<object_name value="acl_contract_active"/>
+	<accessor_name>
+		<repeating value="dm_world"/>
+		<repeating value="dm_owner"/>
+		<repeating value="%$dqlvalue(&quot;select object_name from d2_dictionary_value where dictionary_name = 'dic_groups' and r_object_id in (select parent_id from dm_relation where description like 'tax_doctype_read_roles%' and child_id in (select r_object_id from d2_dictionary_value where object_name = '$value(acme_doc_type)' and dictionary_name = 'dic_doc_types'))&quot;)"/>
+		<repeating value="grp_contract_write"/>
+		<repeating value="grp_contract_write"/>
+		<repeating value="admingroup"/>
+	</accessor_name>
+	<accessor_permit>
+		<repeating value="1"/>
+		<repeating value="6"/>
+		<repeating value="3"/>
+		<repeating value="6"/>
+		<repeating value="3"/>
+		<repeating value="7"/>
+	</accessor_permit>
+	<accessor_xpermit>
+		<repeating value="3"/>
+		<repeating value="3"/>
+		<repeating value="0"/>
+		<repeating value="1048576"/>
+		<repeating value="0"/>
+		<repeating value="2031616"/>
+	</accessor_xpermit>
+	<condition_attr_name>
+		<repeating value=""/>
+		<repeating value=""/>
+		<repeating value=""/>
+		<repeating value="acme_doc_type"/>
+		<repeating value=""/>
+		<repeating value=""/>
+	</condition_attr_name>
+	<condition_attr_value>
+		<repeating value=""/>
+		<repeating value=""/>
+		<repeating value=""/>
+		<repeating value="Amendment"/>
+		<repeating value=""/>
+		<repeating value=""/>
+	</condition_attr_value>
+</d2_acl_config>

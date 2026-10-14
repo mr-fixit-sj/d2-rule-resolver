@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_dictionary object_name="dic_processes" application_names="ACME" is_dql="false">
+	<d2_dictionary_value object_name="Contracts" is_enabled="true" order_no="0">
+		<locale name="en" value="Contracts"/>
+		<locale name="fr" value="Contrats"/>
+	</d2_dictionary_value>
+	<d2_dictionary_value object_name="Invoices" is_enabled="true" order_no="1">
+		<locale name="en" value="Invoices"/>
+		<locale name="fr" value="Factures"/>
+	</d2_dictionary_value>
+</d2_dictionary>

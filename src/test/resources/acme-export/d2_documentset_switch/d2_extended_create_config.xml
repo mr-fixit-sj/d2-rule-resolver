@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset_switch object_name="d2_extended_create_config">
+	<d2_documentset name="Doc - Other Application" config="xcp_never"/>
+</d2_documentset_switch>

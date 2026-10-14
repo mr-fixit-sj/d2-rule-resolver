@@ -1,0 +1,18 @@
+target/
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# client material must never be committed
+*.zip
+*.dar
+*.csv
+!src/test/resources/**/*.csv
+
+# local Claude Code instructions, not part of the project
+CLAUDE.md
+CLAUDE.local.md
+.claude/

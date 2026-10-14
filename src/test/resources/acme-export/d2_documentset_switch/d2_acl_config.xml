@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset_switch object_name="d2_acl_config">
+	<d2_documentset name="Doc - Contracts - All¬Doc - Contracts - Active" config="acl_contract_active"/>
+	<d2_documentset name="Doc - Contracts - All¬Doc - Contracts - Final" config="acl_contract_final"/>
+</d2_documentset_switch>

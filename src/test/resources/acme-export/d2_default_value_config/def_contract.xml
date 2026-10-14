@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_default_value_config new_format="true">
+	<object_name value="def_contract"/>
+	<attr_name><repeating value="acme_process"/><repeating value="acme_doc_date"/></attr_name>
+	<attr_value><repeating value="Contracts"/><repeating value="$TODAY"/></attr_value>
+</d2_default_value_config>

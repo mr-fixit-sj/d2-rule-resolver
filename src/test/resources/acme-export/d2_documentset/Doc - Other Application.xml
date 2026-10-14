@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset new_format="true">
+	<object_name value="Doc - Other Application"/>
+	<dql_where value=""/>
+	<order_no value="6"/>
+	<dql_from></dql_from>
+	<group_names></group_names>
+	<application_names><repeating value="OTHER"/></application_names>
+	<parent_names></parent_names>
+	<lock_config value="F"/>
+</d2_documentset>

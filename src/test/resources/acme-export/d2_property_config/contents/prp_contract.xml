@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialog id="PropertiesDialog" width="450" height="600">
+	<content>
+		<fieldset>
+			<combo id="acme_process" assistance_type="taxonomy" assistance_taxonomy="tax_doc_type" assistance_dictionary="dic_processes" condition_required_import="true" condition_required_create="true"/>
+			<combo id="acme_doc_type" assistance_type="taxonomy" assistance_taxonomy="tax_doc_type" assistance_dictionary="dic_doc_types" condition_required_import="true" condition_required_create="true"/>
+			<date id="acme_doc_date" condition_required_import="true" condition_required_create="true"/>
+			<text id="acme_customer" condition_required="(getValue(acme_doc_type).equals('Lease Contract'))||(getValue(acme_doc_type).equals('Amendment'))" condition_required_import="true"/>
+			<text id="acme_contract_nr" condition_required="(getValue(acme_doc_type).equals('Lease Contract'))&amp;&amp;(getValue(acme_doc_type).equals('Amendment'))" condition_required_import="true"/>
+			<text id="acme_notes" condition_required="getValue(acme_customer).startsWith('X')" condition_required_import="true"/>
+			<text id="subject"/>
+		</fieldset>
+	</content>
+</dialog>

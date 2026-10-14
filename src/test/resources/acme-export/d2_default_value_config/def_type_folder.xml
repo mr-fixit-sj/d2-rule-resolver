@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_default_value_config new_format="true">
+	<object_name value="def_type_folder"/>
+	<attr_name><repeating value="subject"/></attr_name>
+	<attr_value><repeating value="Folder - $value(acme_doc_type)"/></attr_value>
+</d2_default_value_config>

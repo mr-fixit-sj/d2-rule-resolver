@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset_switch object_name="d2_property_config">
+	<d2_documentset name="Role - Contract Admin" config="prp_admin"/>
+	<d2_documentset name="Doc - Contracts - All" config="prp_contract"/>
+</d2_documentset_switch>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset new_format="true">
+	<object_name value="Doc - Drafts"/>
+	<dql_where value="object_name like 'DRAFT%' and acme_doc_type not in ('Amendment')"/>
+	<order_no value="7"/>
+	<dql_from><repeating value="acme_document"/></dql_from>
+	<group_names></group_names>
+	<application_names><repeating value="ACME"/></application_names>
+	<parent_names></parent_names>
+	<lock_config value="F"/>
+</d2_documentset>

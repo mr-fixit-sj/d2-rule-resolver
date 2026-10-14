@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_naming_config new_format="true">
+	<object_name value="an_contract"/>
+	<attr_name value="object_name"/>
+	<templates_names><repeating value="$value(acme_customer)_$value(acme_doc_type.dic_doc_types.abbreviation)_$value(acme_doc_date.yyyyMMdd)"/></templates_names>
+	<regexp_name><repeating value="trailing"/><repeating value="duplicate"/><repeating value="leading"/></regexp_name>
+	<regexp_pattern><repeating value="_$"/><repeating value="__"/><repeating value="^_"/></regexp_pattern>
+	<regexp_replace><repeating value=""/><repeating value="_"/><repeating value=""/></regexp_replace>
+</d2_naming_config>

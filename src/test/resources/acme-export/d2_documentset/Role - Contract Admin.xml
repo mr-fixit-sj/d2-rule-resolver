@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset new_format="true">
+	<object_name value="Role - Contract Admin"/>
+	<dql_where value=""/>
+	<order_no value="8"/>
+	<dql_from></dql_from>
+	<group_names><repeating value="grp_contract_admin"/></group_names>
+	<application_names><repeating value="ACME"/></application_names>
+	<parent_names></parent_names>
+	<lock_config value="F"/>
+</d2_documentset>

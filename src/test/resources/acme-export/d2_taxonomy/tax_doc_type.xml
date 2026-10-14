@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_taxonomy object_name="tax_doc_type" application_names="ACME">
+	<level position="0" name="dic_processes"/>
+	<level position="1" name="dic_doc_types"/>
+	<path value="Contracts/Lease Contract"/>
+	<path value="Contracts/Amendment"/>
+	<path value="Invoices/Invoice"/>
+</d2_taxonomy>

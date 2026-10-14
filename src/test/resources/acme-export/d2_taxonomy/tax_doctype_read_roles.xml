@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_taxonomy object_name="tax_doctype_read_roles" application_names="ACME">
+	<level position="0" name="dic_groups"/>
+	<level position="1" name="dic_doc_types"/>
+	<path value="grp_lease_read/Lease Contract"/>
+	<path value="grp_lease_audit/Lease Contract"/>
+</d2_taxonomy>

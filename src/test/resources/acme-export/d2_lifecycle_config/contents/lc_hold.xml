@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2lifecycle execute_actions_on_start="true" state_attribute="">
+	<state direct="true" entry="true" name="Hold">
+		<actions><set name="a_status" value="Hold"/></actions>
+		<next_states/>
+	</state>
+</d2lifecycle>

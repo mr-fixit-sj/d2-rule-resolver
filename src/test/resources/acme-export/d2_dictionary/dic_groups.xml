@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_dictionary object_name="dic_groups" application_names="ACME" is_dql="false">
+	<d2_dictionary_value object_name="grp_lease_read" is_enabled="true" order_no="0"/>
+	<d2_dictionary_value object_name="grp_lease_audit" is_enabled="true" order_no="1"/>
+</d2_dictionary>

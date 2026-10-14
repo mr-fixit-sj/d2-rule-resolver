@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D2-API>
+	<project.version>22.1.0000</project.version>
+	<build>1</build>
+	<custom_config>false</custom_config>
+	<application>ACME</application>
+	<export_sequence>
+		<d2_dictionary/>
+		<d2_taxonomy/>
+		<d2_documentset/>
+		<_d2_documentset_switch_/>
+	</export_sequence>
+</D2-API>

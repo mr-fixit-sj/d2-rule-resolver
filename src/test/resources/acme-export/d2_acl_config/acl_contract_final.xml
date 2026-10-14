@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_acl_config new_format="true">
+	<object_name value="acl_contract_final"/>
+	<accessor_name>
+		<repeating value="dm_world"/>
+		<repeating value="dm_owner"/>
+		<repeating value="grp_contract_read"/>
+	</accessor_name>
+	<accessor_permit>
+		<repeating value="1"/>
+		<repeating value="3"/>
+		<repeating value="3"/>
+	</accessor_permit>
+	<accessor_xpermit>
+		<repeating value="3"/>
+		<repeating value="3"/>
+		<repeating value="0"/>
+	</accessor_xpermit>
+	<condition_attr_name>
+		<repeating value=""/>
+		<repeating value=""/>
+		<repeating value=""/>
+	</condition_attr_name>
+	<condition_attr_value>
+		<repeating value=""/>
+		<repeating value=""/>
+		<repeating value=""/>
+	</condition_attr_value>
+</d2_acl_config>
